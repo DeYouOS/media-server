@@ -4,7 +4,7 @@
 namespace MediaServer\Rtmp;
 
 use \Exception;
-use Workerman\Timer;
+use Workerman\Lib\Timer;
 
 trait RtmpTrait
 {
