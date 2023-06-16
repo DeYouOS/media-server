@@ -15,7 +15,7 @@ use MediaServer\MediaReader\VideoFrame;
 use MediaServer\PushServer\PublishStreamInterface;
 use MediaServer\Utils\BinaryStream;
 use React\Stream\ReadableStreamInterface;
-use Workerman\Timer;
+use Workerman\Lib\Timer;
 
 class FlvPublisherStream extends EventEmitter implements PublishStreamInterface
 {
