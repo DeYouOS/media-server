@@ -5,7 +5,7 @@ namespace MediaServer\Rtmp;
 
 use MediaServer\MediaReader\AVCPacket;
 use MediaServer\MediaReader\VideoFrame;
-use Workerman\Timer;
+use Workerman\Lib\Timer;
 
 trait RtmpVideoHandlerTrait
 {
