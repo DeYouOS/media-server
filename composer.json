@@ -1,6 +1,6 @@
 {
     "name": "brawn/media-server",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "ext-json": "*",
         "evenement/evenement": "^3.0",
         "apix/log": "^1.2",
-        "workerman/workerman": "^3.5.23",
+        "workerman/workerman": "^4.1",
         "react/promise": "^2.9"
     },
     "autoload": {
