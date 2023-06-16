@@ -19,9 +19,9 @@
     "autoload": {
         "psr-4": { 
             "MediaServer\\": "src"
-        }
-    },
-    "files": [
-        "src/functions.php"
-    ]
+        },
+        "files": [
+             "src/functions.php"
+        ]
+    }
 }
